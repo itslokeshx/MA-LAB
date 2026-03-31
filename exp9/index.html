@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lokesh | Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Lokesh</a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="mobile-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <span class="hero-badge">Welcome to my portfolio</span>
+            <h1 class="hero-title">Hi, I'm <span>Lokesh</span></h1>
+            <p class="hero-subtitle">Student | Developer | Builder</p>
+            <div class="hero-buttons">
+                <a href="about.html" class="btn btn-primary">About Me</a>
+                <a href="contact.html" class="btn btn-secondary">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="profile-section">
+        <div class="container">
+            <div class="profile-card">
+                <div class="profile-image">L</div>
+                <div class="profile-info">
+                    <h3>Hello, welcome!</h3>
+                    <p>I'm a passionate developer and student exploring the world of web development and building amazing projects.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="search-section">
+        <div class="container">
+            <div class="search-box">
+                <input type="text" placeholder="Search anything...">
+                <button type="button">Search</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="table-section">
+        <div class="container">
+            <h2 class="section-title">Personal Details</h2>
+            <div class="table-container">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Field</th>
+                            <th>Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Name</td>
+                            <td>Lokesh</td>
+                        </tr>
+                        <tr>
+                            <td>Department</td>
+                            <td>Computer Science Engineering (CSE)</td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td>itslokeshx@email.com</td>
+                        </tr>
+                        <tr>
+                            <td>Interests</td>
+                            <td>Web Development, Startups</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section class="links-section">
+        <div class="container">
+            <h2>Explore More</h2>
+            <div class="link-buttons">
+                <a href="about.html" class="btn btn-primary">About Me</a>
+                <a href="contact.html" class="btn btn-secondary">Contact</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Lokesh. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

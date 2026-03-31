@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lokesh | About Me</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Lokesh</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About Me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="mobile-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1 class="page-title">About Me</h1>
+            <p class="page-subtitle">Learn more about my journey and aspirations</p>
+        </div>
+    </header>
+
+    <section class="about-content">
+        <div class="container">
+            <div class="bio-section">
+                <p>I'm a dedicated Computer Science Engineering student with a passion for building innovative solutions. Currently learning the MERN stack and working on exciting projects that combine creativity with technical skills. I believe in continuous learning and am always exploring new technologies to enhance my development journey.</p>
+            </div>
+
+            <div class="skills-section">
+                <h3>Skills</h3>
+                <div class="skills-grid">
+                    <span class="skill-tag">HTML5</span>
+                    <span class="skill-tag">CSS3</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">React Basics</span>
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">MongoDB</span>
+                </div>
+            </div>
+
+            <div class="goals-section">
+                <h3>Goals</h3>
+                <div class="goals-list">
+                    <div class="goal-item">
+                        <div class="goal-icon">🎯</div>
+                        <div>
+                            <strong>Become a Full-Stack Developer</strong>
+                            <p style="color: var(--text-secondary); font-size: 0.9rem; margin-top: 5px;">Master both frontend and backend technologies to build complete web applications</p>
+                        </div>
+                    </div>
+                    <div class="goal-item">
+                        <div class="goal-icon">🚀</div>
+                        <div>
+                            <strong>Build Real-World Projects</strong>
+                            <p style="color: var(--text-secondary); font-size: 0.9rem; margin-top: 5px;">Create impactful applications that solve real problems</p>
+                        </div>
+                    </div>
+                    <div class="goal-item">
+                        <div class="goal-icon">💡</div>
+                        <div>
+                            <strong>Contribute to Open Source</strong>
+                            <p style="color: var(--text-secondary); font-size: 0.9rem; margin-top: 5px;">Give back to the developer community and collaborate on exciting projects</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="links-section">
+                <div class="link-buttons">
+                    <a href="index.html" class="btn btn-primary">Back to Home</a>
+                    <a href="contact.html" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Lokesh. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
