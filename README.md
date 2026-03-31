@@ -15,6 +15,7 @@ A comprehensive collection of multimedia experiments covering image editing, aud
 | **Exp 5**  | Sound Mixing                 | 1 audio file                |
 | **Exp 6**  | Audio with Visual Comparison | 3 files (2 audio + 1 image) |
 | **Exp 9**  | Personal Website             | HTML/CSS/JS + Live Demo     |
+| **Exp 10** | 2D Animation                 | Blender file                |
 
 ---
 
@@ -150,6 +151,21 @@ A complete, responsive personal portfolio website built with HTML, CSS, and Java
 - HTML5
 - CSS3
 - Vanilla JavaScript
+
+## ✨ Exp 10: 2D Animation
+
+A simple 2D animation project created with 5 frames using Blender.
+
+### Files
+
+- `2D_animation_exp10.blend1` - Blender animation project file
+
+### Concepts Covered
+
+- 2D animation fundamentals
+- Frame-by-frame animation (5 frames)
+- Blender animation tools
+- Keyframe animation basics
 
 ---
 
