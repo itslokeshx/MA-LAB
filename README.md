@@ -18,6 +18,8 @@ A curated collection of multimedia experiments showcasing image editing, audio p
   - [Exp 6 – Audio with Visual Comparison](#exp-6-audio-with-visual-comparison)
   - [Exp 9 – Personal Portfolio Website](#exp-9-personal-portfolio-website)
   - [Exp 10 – 2D Animation](#exp-10-2d-animation)
+  - [Exp 11 – 3D Animation Introduction](#exp-11-3d-animation-introduction)
+  - [Exp 12 – 3D Modeling](#exp-12-3d-modeling)
   - [Contributing](#contributing)
   - [License](#license)
 
@@ -35,6 +37,8 @@ A curated collection of multimedia experiments showcasing image editing, audio p
 | **6**  | Audio with Visual Comparison | MP3, OGG & size chart   | 3 files     |
 | **9**  | Personal Portfolio Website   | HTML/CSS/JS site        | 5 files     |
 | **10** | 2D Animation                 | Blender project         | 1 file      |
+| **11** | 3D Animation Introduction    | 3D animation basics     | 4 files     |
+| **12** | 3D Modeling                  | 3D modeling techniques  | 1 image     |
 
 ---
 
@@ -186,6 +190,45 @@ A simple frame‑by‑frame 2D animation created in Blender.
 - Key‑frame animation workflow
 - Exporting image sequences
 - Basic 2‑D motion principles
+
+---
+
+## 🎬 Exp 11: 3D Animation Introduction
+
+Introduction to 3D animation using Blender, featuring character and object animation.
+
+### Assets
+
+- `3d.blend` – 3D scene file
+- `3d.png` – Rendered scene screenshot (112 KB)
+- `3d_animation.blend` – Animation project file
+- `exp11.png` – Animation frame capture (112 KB)
+- `exp11_render.png` – Final rendered output (112 KB)
+- `lokesh_intro/` – Character/scene assets folder
+
+### Concepts Demonstrated
+
+- 3D scene setup and lighting
+- Key‑frame animation in 3D space
+- Camera positioning and rendering
+- Basic 3D character animation principles
+
+---
+
+## 🏺 Exp 12: 3D Modeling
+
+3D modeling exercises demonstrating creation of three‑dimensional objects and scenes.
+
+### Assets
+
+- `MA_12th_exp.png` – Model render and demonstration (112 KB)
+
+### Concepts Demonstrated
+
+- Polygon modeling techniques
+- 3D object manipulation
+- UV mapping and texturing basics
+- 3D scene composition
 
 ---
 
