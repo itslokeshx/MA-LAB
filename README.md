@@ -13,13 +13,15 @@ A curated collection of multimedia experiments showcasing image editing, audio p
   - [Exp 1 – Image Editing Fundamentals](#exp-1-image-editing-fundamentals)
   - [Exp 2 – Logo & Banner Design](#exp-2-logo--banner-design)
   - [Exp 3 – Audio Introduction](#exp-3-audio-introduction)
-  - [Exp 4 – Audio Formats Comparison](#exp-4-audio-formats-comparison)
+  - [Exp 4 – Audio Effects](#exp-4-audio-effects)
   - [Exp 5 – Sound Mixing](#exp-5-sound-mixing)
   - [Exp 6 – Audio with Visual Comparison](#exp-6-audio-with-visual-comparison)
+  - [Exp 7 – Video Conversion](#exp-7-video-conversion)
+  - [Exp 8 – Video Formats Comparison](#exp-8-video-formats-comparison)
   - [Exp 9 – Personal Portfolio Website](#exp-9-personal-portfolio-website)
   - [Exp 10 – 2D Animation](#exp-10-2d-animation)
   - [Exp 11 – 3D Animation Introduction](#exp-11-3d-animation-introduction)
-  - [Exp 12 – 3D Modeling](#exp-12-3d-modeling)
+  - [Exp 12 – Web Design](#exp-12-web-design)
   - [Contributing](#contributing)
   - [License](#license)
 
@@ -30,15 +32,17 @@ A curated collection of multimedia experiments showcasing image editing, audio p
 | #      | Experiment                   | Topic                   | Asset Count |
 | ------ | ---------------------------- | ----------------------- | ----------- |
 | **1**  | Image Editing Fundamentals   | Basic raster operations | 9 images    |
-| **2**  | Logo & Banner Design         | Branding assets         | 3 images    |
-| **3**  | Audio Introduction           | Simple recording        | 1 audio     |
-| **4**  | Audio Formats Comparison     | MP3 vs WAV              | 2 audio     |
-| **5**  | Sound Mixing                 | Layered audio           | 1 audio     |
-| **6**  | Audio with Visual Comparison | MP3, OGG & size chart   | 3 files     |
-| **9**  | Personal Portfolio Website   | HTML/CSS/JS site        | 5 files     |
-| **10** | 2D Animation                 | Blender project         | 1 file      |
-| **11** | 3D Animation Introduction    | 3D animation basics     | 4 files     |
-| **12** | 3D Modeling                  | 3D modeling techniques  | 1 image     |
+| **2**  | Logo & Banner Design         | Branding assets         | 2 images    |
+| **3**  | Audio Introduction           | Audio recording demo    | 1 image     |
+| **4**  | Audio Effects                 | Fade in/out, echo       | 4 images    |
+| **5**  | Sound Mixing                 | Layered audio demo      | 1 image     |
+| **6**  | Audio Formats Comparison     | MP3, OGG & size chart   | 5 files     |
+| **7**  | Video Conversion             | Format conversion       | 3 files     |
+| **8**  | Video Formats Comparison     | MP4 vs MKV sizes        | 4 files     |
+| **9**  | Personal Portfolio Website   | HTML/CSS/JS site        | 8 files     |
+| **10** | 2D Animation                 | Blender project         | 2 files     |
+| **11** | 3D Animation Introduction    | 3D animation basics     | 3 files     |
+| **12** | Web Design                   | Mobile page designing   | 1 image     |
 
 ---
 
@@ -77,7 +81,6 @@ Creation of brand‑identity graphics.
 
 - `logo.png` – Primary logo (11 KB)
 - `logo1.png` – Alternate logo variant (11 KB)
-- `banner.png` – Promotional banner (240 KB)
 
 ### Concepts Demonstrated
 
@@ -89,61 +92,65 @@ Creation of brand‑identity graphics.
 
 ## 🔊 Exp 3: Audio Introduction
 
-A short spoken‑word recording illustrating basic audio capture.
+Audio recording demonstration with basic capture techniques.
 
 ### Asset
 
-- `intro.mp3` – Introduction track (700 KB)
+- `exp3ss.png` – Screenshot of audio recording setup
 
 ### Concepts Demonstrated
 
 - Recording with a microphone
-- MP3 encoding basics
+- Audio capture basics
 
 ---
 
-## 📊 Exp 4: Audio Formats Comparison
+## 🎚️ Exp 4: Audio Effects
 
-Side‑by‑side comparison of compressed and uncompressed audio formats.
+Audio effects demonstration showing fade in, fade out, and echo effects.
 
 ### Assets
 
-- `name.mp3` – MP3 (compressed, 88 KB)
-- `name.wav` – WAV (uncompressed, 654 KB)
+- `exp4ss.png` – Main effects screenshot
+- `exp4ss_echo.png` – Echo effect demonstration
+- `exp4ss_fadein.png` – Fade in effect
+- `exp4_ss_fadeout.png` – Fade out effect
 
 ### Concepts Demonstrated
 
-- Compression trade‑offs
-- File‑size differences
-- Perceived audio quality
+- Audio effects processing
+- Fade in/out techniques
+- Echo/reverb effects
 
 ---
 
 ## 🎛️ Exp 5: Sound Mixing
 
-Combining multiple audio tracks into a single mixed output.
+Audio mixing demonstration showing layered audio composition.
 
 ### Asset
 
-- `soundmixing.mp3` – Mixed audio (744 KB)
+- `exp5.png` – Screenshot of audio mixing interface
 
 ### Concepts Demonstrated
 
 - Layering tracks
 - Volume balancing
-- Exporting a final mix
+- Mixing interface basics
 
 ---
 
 ## 🎵 Exp 6: Audio with Visual Comparison
 
-Comparison of MP3 and OGG formats together with a visual size chart.
+Comparison of MP3 and OGG audio formats with visual size chart.
 
 ### Assets
 
-- `lord_of_rings_bgm.mp3` – MP3 version (603 KB)
-- `lord_of_rings_bgm.ogg` – OGG version (485 KB)
-- `size_comparison.png` – Chart visualising size differences (82 KB)
+- `lord_of_rings_bgm_mp3.mp3` – MP3 version
+- `lord_of_rings_bgm_oog.ogg` – OGG version
+- `size_comparison.png` – Size comparison chart
+- `exp6.png` – Main screenshot
+- `exp6_ogg.png` – OGG format screenshot
 
 ### Concepts Demonstrated
 
@@ -153,7 +160,44 @@ Comparison of MP3 and OGG formats together with a visual size chart.
 
 ---
 
-## 🌐 Exp 9: Personal Portfolio Website
+## � Exp 7: Video Conversion
+
+Video format conversion demonstration.
+
+### Assets
+
+- `kohli_71st_century.mp4` – Original video file
+- `exp7.png` – Screenshot of conversion process
+- `exp7_export.png` – Export settings screenshot
+
+### Concepts Demonstrated
+
+- Video format conversion
+- Export settings configuration
+- Video codec basics
+
+---
+
+## 🎬 Exp 8: Video Formats Comparison
+
+Comparison of different video formats (MP4 vs MKV) with size analysis.
+
+### Assets
+
+- `kohli_71st_century.mp4` – MP4 version
+- `kohli_71st_century.mkv` – MKV version
+- `exp8.png` – Main screenshot
+- `exp8_size_comparison.png` – Size comparison chart
+
+### Concepts Demonstrated
+
+- Video format differences (MP4 vs MKV)
+- Container format comparison
+- File size impact of formats
+
+---
+
+## �� Exp 9: Personal Portfolio Website
 
 A responsive personal site built with vanilla web technologies.
 
@@ -168,6 +212,9 @@ A responsive personal site built with vanilla web technologies.
 - `contact.html` – Contact form page
 - `styles.css` – Global stylesheet
 - `README.md` – Documentation for this experiment
+- `ScreenShots/homepage.png` – Homepage screenshot
+- `ScreenShots/aboutpage.png` – About page screenshot
+- `ScreenShots/contactpage.png` – Contact page screenshot
 
 ### Tech Stack
 
@@ -181,9 +228,10 @@ A responsive personal site built with vanilla web technologies.
 
 A simple frame‑by‑frame 2D animation created in Blender.
 
-### Asset
+### Assets
 
 - `2D_animation_exp10.blend1` – Blender project file (contains 5 key‑framed frames)
+- `exp10_ss.png` – Animation screenshot
 
 ### Concepts Demonstrated
 
@@ -202,9 +250,6 @@ Introduction to 3D animation using Blender, featuring character and object anima
 - `3d.blend` – 3D scene file
 - `3d.png` – Rendered scene screenshot (112 KB)
 - `3d_animation.blend` – Animation project file
-- `exp11.png` – Animation frame capture (112 KB)
-- `exp11_render.png` – Final rendered output (112 KB)
-- `lokesh_intro/` – Character/scene assets folder
 
 ### Concepts Demonstrated
 
@@ -215,20 +260,20 @@ Introduction to 3D animation using Blender, featuring character and object anima
 
 ---
 
-## 🏺 Exp 12: 3D Modeling
+## 📱 Exp 12: Web Design
 
-3D modeling exercises demonstrating creation of three‑dimensional objects and scenes.
+Web design exercises demonstrating responsive mobile page creation.
 
 ### Assets
 
-- `MA_12th_exp.png` – Model render and demonstration (112 KB)
+- `MA_12th_exp.png` – Mobile page design mockup (112 KB)
 
 ### Concepts Demonstrated
 
-- Polygon modeling techniques
-- 3D object manipulation
-- UV mapping and texturing basics
-- 3D scene composition
+- Mobile-first design principles
+- Responsive layout techniques
+- CSS styling for mobile devices
+- Page composition and UI elements
 
 ---
 
